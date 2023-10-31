@@ -11,5 +11,11 @@ class MainActivity2 : AppCompatActivity() {
 
 
 
+        val resultat = intent.getDoubleExtra("price",0.0)
+
+        val txtRes = findViewById<TextView>(R.id.resultat)
+
+        txtRes.setText("prix total : $resultat")
+
     }
 }
