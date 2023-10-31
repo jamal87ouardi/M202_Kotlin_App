@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#DCF4DD">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        >
+
+
+        <RadioButton
+            android:id="@+id/i5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="i5"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/i7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="i7" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/quantite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="quantité"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <Switch
+        android:id="@+id/accessoires"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avec Accessoires"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculer"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"/>
+</LinearLayout>
